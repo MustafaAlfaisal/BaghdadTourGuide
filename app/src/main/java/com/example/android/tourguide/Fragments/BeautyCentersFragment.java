@@ -21,6 +21,10 @@ import java.util.ArrayList;
 public class BeautyCentersFragment extends Fragment {
     public static final String PANORAMA = "Panorama";
     public static final String ALMANSOUR = "almansour";
+    public static final String carmen_center_img = "CarmenCenter";
+    public static final String veolla_cente_img = "Veolla Center";
+    public static final String carmen_center_location = "palasten st.";
+    public static final String veolla_center_location = "Zaiona st.";
     ListView listView;
 
 
@@ -35,8 +39,8 @@ public class BeautyCentersFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_beauty_centers, container, false);
 
         ArrayList<Location> locationArrayList = new ArrayList<>();
-        locationArrayList.add(new Location(R.drawable.panorama_img, PANORAMA, ALMANSOUR, "07700000"));
-        locationArrayList.add(new Location(R.drawable.panorama_img,PANORAMA, ALMANSOUR, "07700000"));
+        locationArrayList.add(new Location(R.drawable.carmen_center, carmen_center_img, carmen_center_location, "07700000"));
+        locationArrayList.add(new Location(R.drawable.veolla_center, veolla_cente_img, veolla_center_location, "07700000"));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), R.layout.list_liew, locationArrayList);
 
