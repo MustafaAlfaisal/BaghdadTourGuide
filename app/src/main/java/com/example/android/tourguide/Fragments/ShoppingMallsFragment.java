@@ -36,8 +36,8 @@ public class ShoppingMallsFragment extends Fragment {
 
 
         ArrayList<Location> locationArrayList = new ArrayList<>();
-        locationArrayList.add(new Location(R.drawable.baghdad_mall, getString(R.string.baghdad_mall), ALMANSOUR, "07700000"));
-        locationArrayList.add(new Location(R.drawable.zayona_mall, getString(R.string.zayona_mall), ALMANSOUR, "07700000"));
+        locationArrayList.add(new Location(R.drawable.baghdad_mall, getString(R.string.baghdad_mall), getString(R.string.baghdad_mall_loaction), getString(R.string.phone_number)));
+        locationArrayList.add(new Location(R.drawable.zayona_mall, getString(R.string.zayona_mall), getString(R.string.zayona_st), getString(R.string.phone_number)));
 
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), R.layout.list_liew, locationArrayList);

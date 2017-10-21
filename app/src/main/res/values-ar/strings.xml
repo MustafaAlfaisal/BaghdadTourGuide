@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Baghdad Tour Guide"</string>
+    <string name="baghdad_mall">دليل بغداد السياحي</string>
+    <string name="carmen_center_location">شارع فلسطين</string>
+    <string name="carmen_center_name">مركز كارمن</string>
+    <string name="challenger_gym_name">مركز جالنجر لكمال الجسام</string>
+    <string name="challengergym_location">الكرادة - شارع 42</string>
+    <string name="location_image"></string>
+    <string name="nutella_location">الكرادة شارع 42</string>
+    <string name="nutella_name">نوتيلا كافية</string>
+    <string name="panorama_location">المنصور شارع الرواد</string>
+    <string name="panorama_name">بانوراما كافية</string>
+    <string name="technogym_location">"القاهرة "</string>
+    <string name="technogym_name">تكنو جم</string>
+    <string name="zayona_st">زيونة</string>
+    <string name="veolla_center_name">مركز فايولا</string>
+    <string name="zayona_mall">زيونة مول</string>
+</resources>

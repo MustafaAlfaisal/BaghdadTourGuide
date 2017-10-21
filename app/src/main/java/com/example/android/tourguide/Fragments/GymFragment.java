@@ -19,10 +19,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class GymFragment extends Fragment {
-    public static final String TECHNO_GYM = "TechnoGym";
-    public static final String CHALLENGER_GYM = "challenger Gym";
-    public static final String AL_QAHIRA = "Al-qahira";
-    public static final String AL_KARRADA = "Al-karrada - 42st.";
     ListView listView;
 
 
@@ -38,8 +34,8 @@ public class GymFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_gym, container, false);
 
         ArrayList<Location> locationArrayList = new ArrayList<>();
-        locationArrayList.add(new Location(R.drawable.techno, TECHNO_GYM, AL_QAHIRA, "07700000"));
-        locationArrayList.add(new Location(R.drawable.challenger_gym, CHALLENGER_GYM, AL_KARRADA, "07700000"));
+        locationArrayList.add(new Location(R.drawable.techno, getString(R.string.technogym_name), getString(R.string.technogym_location), getString(R.string.phone_number)));
+        locationArrayList.add(new Location(R.drawable.challenger_gym, getString(R.string.challenger_gym_name), getString(R.string.challengergym_location), getString(R.string.phone_number)));
 
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), R.layout.list_liew, locationArrayList);

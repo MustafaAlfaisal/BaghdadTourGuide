@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name"> Baghdad Tour Guide</string>
-    <string name="panorama">Panorama</string>
     <string name="baghdad_mall">Baghdad Mall</string>
     <string name="zayona_mall">Zayona Mall</string>
+    <string name="location_image">Location image</string>
+    <string name="technogym_name">TechnoGym</string>
+    <string name="challenger_gym_name">challenger Gym</string>
+    <string name="technogym_location">Al-qahira</string>
+    <string name="phone_number">07700000</string>
+    <string name="challengergym_location">Al-karrada - 42st.</string>
+    <string name="carmen_center_name">CarmenCenter</string>
+    <string name="carmen_center_location">palasten st.</string>
+    <string name="veolla_center_name">Veolla Center</string>
+    <string name="zayona_st">Zaiona st.</string>
+    <string name="panorama_name">Panorama</string>
+    <string name="panorama_location">almansour</string>
+    <string name="nutella_name">Nutella Cafe</string>
+    <string name="nutella_location">42st. alkarrada</string>
+    <string name="baghdad_mall_loaction">almansour</string>
 
 </resources>
