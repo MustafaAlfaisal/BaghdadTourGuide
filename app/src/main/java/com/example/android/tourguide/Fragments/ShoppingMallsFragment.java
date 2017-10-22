@@ -19,7 +19,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class ShoppingMallsFragment extends Fragment {
-    public static final String ALMANSOUR = "almansour";
     ListView listView;
 
 

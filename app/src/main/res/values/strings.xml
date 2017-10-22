@@ -17,5 +17,9 @@
     <string name="nutella_name">Nutella Cafe</string>
     <string name="nutella_location">42st. alkarrada</string>
     <string name="baghdad_mall_loaction">almansour</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shopping_malls">Shopping Malls</string>
+    <string name="gyms">Gyms</string>
+    <string name="beauty_centers">Beauty Centers</string>
 
 </resources>
