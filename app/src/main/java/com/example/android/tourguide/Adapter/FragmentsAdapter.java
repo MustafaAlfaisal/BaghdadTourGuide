@@ -19,7 +19,6 @@ import java.util.ArrayList;
 
 public class FragmentsAdapter extends FragmentPagerAdapter {
     ArrayList<Fragment> fragmentArrayList;
-    //    ArrayList<String> names;
     Context context;
 
     public FragmentsAdapter(FragmentManager fm, Context nContext) {
@@ -32,11 +31,6 @@ public class FragmentsAdapter extends FragmentPagerAdapter {
         fragmentArrayList.add(new GymFragment());
         fragmentArrayList.add(new BeautyCentersFragment());
 
-//        names = new ArrayList<>();
-//        names.add(String.valueOf(R.string.restaurants));
-//        names.add(String.valueOf(R.string.shopping_malls));
-//        names.add(String.valueOf(R.string.gyms));
-//        names.add(String.valueOf(R.string.beauty_centers));
 
     }
 
